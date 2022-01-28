@@ -78,7 +78,7 @@ export default function Home({categoriesProp}) {
              className="border-2 rounded-sm p-2 hover:drop-shadow-xl"
              onChange={(e) => setBerichtNaam(e.target.value)}></input>
             <label htmlFor="categoriesInput">Categories</label>
-            <input id="categoriesInput" className="hover:drop-shadow-xl" list="categories" required onChange={(e) => setCategorie(e.target.value)}/>
+            <input id="categoriesInput" className="hover:drop-shadow-xl cursor-pointer" list="categories" required onChange={(e) => setCategorie(e.target.value)}/>
             <datalist id="categories">
               {categoriesProp.map((categorie: { name: string | number | readonly string[] | undefined; id: Key | null | undefined; }) => (
                 <option value={categorie.name} key={categorie.id}/>
