@@ -92,16 +92,16 @@ export default function Home({categoriesProp}) {
         </div>
         <div className="blog-collection-box w-2/4 bg-gray-200 md:mr-8 sm:my-0 md:ml-0 m-auto h-2/3 pb-4">
           <div className="grid grid-cols-2">
-            <Blog id={1} title="test" category="flagged" text="blabla" image="/SBlogo.svg"/>
-            <Blog id={2} title="test" category="flagged" text="blabla" image="/SBlogo.svg" />
-            <Blog id={3} title="test" category="flagged" text="blabla" image="/SBlogo.svg" />
-            <Blog id={4} title="test" category="flagged" text="blabla" image="/SBlogo.svg" />
+            <Blog id={2} title="Test" category="flagged" text="lorem ipsum" image="/SBlogo.svg" />
+            <Blog id={3} title="Test" category="flagged" text="lorem ipsum" image="/SBlogo.svg" />
+            <Blog id={4} title="Test" category="flagged" text="lorem ipsum" image="/SBlogo.svg" />
+            <Blog id={1} title="Test" category="flagged" text="lorem ipsum" image="/SBlogo.svg"/>
             {/* Originally was planning to fetch data from the api to be shown here but the api is down so there is not a lot I can do here */}
               {showMoreBool &&  
                 <>
-                  <Blog id={5} title="test" category="flagged" text="blabla" image="/SBlogo.svg" />
-                  <Blog id={6} title="test" category="flagged" text="blabla" image="/SBlogo.svg" />
-                  <Blog id={7} title="test" category="flagged" text="blabla" image="/SBlogo.svg" />
+                  <Blog id={5} title="Test" category="flagged" text="lorem ipsum" image="/SBlogo.svg" />
+                  <Blog id={6} title="Test" category="flagged" text="lorem ipsum" image="/SBlogo.svg" />
+                  <Blog id={7} title="Test" category="flagged" text="lorem ipsum" image="/SBlogo.svg" />
                 </>
               }
           </div>
